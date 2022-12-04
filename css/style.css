@@ -6,20 +6,28 @@ body {
 }
 
 /* typography */
-h1,h2,h3 {
+h1,h2,h3, h4 {
     margin: 0;
+}
+
+/* links */
+
+a {
+    text-decoration: none;
+    
 }
 
 /* controls */
 header, 
-main, 
 footer {
     padding: 1.125em 1.25em;
 }
 
+/* nav */
 nav, 
 .nav-logo,
-.nav-menu {
+.nav-menu,
+.main-info-container {
     display: flex;
 }
 
@@ -29,7 +37,7 @@ nav,
 
 .nav-logo {
     margin-right: auto;
-    gap: 3px;
+    gap: 0.1875rem;
 }
 
 .nav-header {
@@ -38,10 +46,61 @@ nav,
 }
 
 .nav-menu {
-    font-size: 0.75rem;
-    font-weight: 600;
     text-transform: uppercase;
-    color: #090909;
     gap: 2rem;
     padding-top: 0.25em;
+    
 }
+
+.nav-menu a {
+    font-size: 0.75rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: #090909;
+}
+
+/* main */
+
+main {
+    display: grid;
+    grid-template-rows: 300px auto auto auto;
+}
+.main-info {
+    height: 100%;
+    color: #fff;
+    background-image: url('../images/main-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    padding: 1.125em 1.25em;
+    
+}
+
+.main-info-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.main-info,
+.main-info-container{
+    transform: scaleX(-1);
+}
+
+.main-info-date,
+.main-info-content {
+    font-weight: 400;
+}
+
+.main-info-date,
+.main-info-content,
+.main-info-header {
+    text-shadow: 0px 1px black;
+}
+
+.main-info-date {
+    font-size: 0.75rem;
+}
+
