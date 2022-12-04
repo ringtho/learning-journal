@@ -2,4 +2,46 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* typography */
+h1,h2,h3 {
+    margin: 0;
+}
+
+/* controls */
+header, 
+main, 
+footer {
+    padding: 1.125em 1.25em;
+}
+
+nav, 
+.nav-logo,
+.nav-menu {
+    display: flex;
+}
+
+.nav-img {
+    width: 23px;
+}
+
+.nav-logo {
+    margin-right: auto;
+    gap: 3px;
+}
+
+.nav-header {
+    font-family:'Roboto', sans-serif;
+    color: #0E0E0E;
+}
+
+.nav-menu {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #090909;
+    gap: 2rem;
+    padding-top: 0.25em;
 }
