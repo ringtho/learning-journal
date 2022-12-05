@@ -17,10 +17,20 @@ a {
 
 .nav-menu a {
     font-size: 0.75rem;
-    text-decoration: none;
     font-weight: 600;
     color: #090909;
     text-transform: uppercase;
+}
+
+.main-info-header a,
+.main-info-container a,
+.nav-menu a {
+    text-decoration: none;
+}
+
+.main-info-header a,
+.main-info-container a {
+    color: #fff;
 }
 
 .view-more a {
