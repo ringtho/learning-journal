@@ -148,6 +148,13 @@ nav,
     margin-bottom: 43px;
 }
 
+.post .profile-img {
+    height: 182px;
+    width: 182px;
+    border-radius: 50%;
+    margin-bottom: 27px;
+}
+
 /* footer */
 
 footer {
