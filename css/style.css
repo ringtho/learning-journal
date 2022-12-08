@@ -10,6 +10,10 @@ h1,h2,h3, h4 {
     margin: 0;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* links */
 a {
     cursor: pointer;
@@ -64,6 +68,7 @@ nav,
 .nav-header {
     font-family:'Roboto', sans-serif;
     color: #0E0E0E;
+    /* font-size: 13.55px; */
 }
 
 .nav-menu {
@@ -121,7 +126,6 @@ nav,
 }
 
 /* post */
-
 .post img {
     width: 100%;
     height: 232px;
@@ -131,11 +135,11 @@ nav,
 
 .post-heading {
     color: #141414;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .post-date {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .main-info-date,
@@ -145,7 +149,6 @@ nav,
 
 .post-content {
     color: #505050;
-    line-height: 20px;
 }
 
 .post-recent,
@@ -155,14 +158,14 @@ nav,
 
 .view-more {
     text-transform: capitalize;
-    margin-bottom: 43px;
+    margin-bottom: 2.6875em;
 }
 
 .post .profile-img {
     height: 182px;
     width: 182px;
     border-radius: 50%;
-    margin-bottom: 27px;
+    margin-bottom: 1.6875em;
 }
 
 /* footer */
@@ -170,7 +173,7 @@ nav,
 footer {
     height: 105px;
     background-color: #202020;
-    font-size: 12px;
+    font-size: 0.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
