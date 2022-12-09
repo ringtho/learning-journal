@@ -351,3 +351,27 @@ footer {
     }
 }
 
+@media (min-width:1500px) {
+    body {
+        height: 100vh;
+    }
+
+    .post-container,
+    .profile,
+    .main-info-container,
+    .blog-img {
+        max-width: 1470px;
+        margin: 0 auto;
+    }
+
+    .blog {
+        max-width: 1280px;
+    }
+
+    .blog p,
+    .post-content,
+    .main-info-container p {
+        font-size: 1.5rem;
+    }
+}
+
