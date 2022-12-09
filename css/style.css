@@ -30,6 +30,11 @@ a {
     color: #219EBC;
 }
 
+.main-info-container a:hover,
+.main-info-container a:focus {
+    color: #219EBC;
+}
+
 .nav-menu a {
     font-size: 0.75rem;
     font-weight: 600;
@@ -86,12 +91,11 @@ nav,
 .nav-menu {
     gap: 2rem;
     padding-top: 0.25em;
-    
 }
 
 .main-info {
     height: 300px;
-    background-image: url('../images/main-img.png');
+    background-image: url('../images/cover-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -216,6 +220,34 @@ footer {
 
 .no-pd {
     padding-top: 0;
+}
+
+.icon {
+    display: none;
+    font-size: 24px;
+    color: #219EBC;
+}
+
+@media (max-width: 400px){
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    nav,
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-menu a {
+        border-bottom: 1px dashed #219EBC;
+        text-align: center;
+    }
+
+    .nav-menu {
+        margin-top: 1em;
+    }
+
 }
 
 @media (min-width: 500px){

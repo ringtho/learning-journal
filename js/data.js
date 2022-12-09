@@ -1,7 +1,7 @@
 export const posts = [
     {
         id: 0,
-        img: "images/post-1.png",
+        img: "images/post-1.jpg",
         alt: "post-1",
         date: "JULY 23, 2022",
         title: "No to Grid Layout!!",
@@ -12,7 +12,7 @@ export const posts = [
     },
     {
         id: 1,
-        img: "images/post-2.png",
+        img: "images/post-2.jpg",
         alt: "post-2",
         date: "JULY 23, 2022",
         title: "Learning Javascript at Scrimba",
@@ -23,7 +23,7 @@ export const posts = [
     },
     {
         id: 4,
-        img: "images/post-4.png",
+        img: "images/post-4.jpg",
         alt: "post-4",
         date: "JULY 23, 2022",
         title: "React the Future?",
@@ -35,7 +35,7 @@ export const posts = [
 
     {
         id: 3,
-        img: "images/post-3.png",
+        img: "images/post-3.jpg",
         alt: "post-3",
         date: "JULY 23, 2022",
         title: "Web3 a solution to no problem?",
