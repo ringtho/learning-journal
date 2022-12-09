@@ -72,6 +72,7 @@ nav,
 .nav-header {
     font-family:'Roboto', sans-serif;
     color: #0E0E0E;
+    letter-spacing: -0.5;
     /* font-size: 13.55px; */
 }
 
@@ -206,8 +207,26 @@ footer {
 }
 
 @media (min-width: 500px){
+    nav {
+        padding: 1.5625em 3.3125em;
+    }
+
+    main {
+        padding: 3.3125em;
+    }
+
+    .nav-header {
+        font-size: 1.25rem;
+        
+    }
+
+    .nav-menu a {
+        font-size: 1rem;
+    }
+
     .main-info {
         height: 488px;
+        padding: 3.75em 3.3125em;
     }
 
     .main-info-container {
@@ -215,29 +234,46 @@ footer {
     }
 
     .main-info-header a {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .post-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 10px;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
     }
 
     .post {
+        padding-top: 0;
         min-width: 250px;
-        max-width: 48%;
+        max-width: 75%;
+    } 
+
+    footer {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 622px) {
+    .post-container {
+        justify-content: space-between;
+        gap: 1rem;
     }
 
-    header {
-        padding-left: 3.3125em;
-        padding-right: 3.3125em;
-
+    .post {
+        padding-top: 0;
+        min-width: 250px;
+        max-width: 48%;
     }
 }
 
 @media (min-width: 900px) {
+    .post-container {
+        gap: 26px;
+    }
+
     .post {
         max-width: 32%;
     }
