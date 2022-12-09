@@ -1,5 +1,19 @@
 import { posts } from "./data.js"
 const postEl = document.querySelector('.post-container')
+const viewMoreBtn = document.getElementById('view-more')
+
+
+if (viewMoreBtn){
+    viewMoreBtn.addEventListener('click', function(e){
+        e.preventDefault()
+        posts.forEach(function(post){
+            if (post.display === false){
+                post.display = true
+            }
+        })
+        renderPosts()
+    })
+}
 
 function renderPosts(){
     let postsHTML = ''
@@ -22,3 +36,5 @@ function renderPosts(){
 }
 
 renderPosts()
+
+
